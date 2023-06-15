@@ -1,13 +1,14 @@
 import React from 'react';
-import Logo from '../components/Logo';
-import Nav from '../components/Nav';
+import Nav from '../components/Navbar';
+import Footer from '../components/Footer';
+
 
 const Location = () => {
     return (
         <div>
-            <Logo />
             <Nav />
             <h1>Logement</h1>
+            <Footer />
         </div>
     );
 };

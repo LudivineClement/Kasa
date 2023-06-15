@@ -1,13 +1,16 @@
 import React from 'react';
-import Logo from '../components/Logo';
-import Nav from '../components/Nav';
+import Nav from '../components/Navbar';
+import Banner from '../components/Banner';
+import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
         <div>
-            <Logo />
             <Nav />
-            <h1>Accueil</h1>
+            <Banner />
+            <Card />
+            <Footer />
         </div>
     );
 };
