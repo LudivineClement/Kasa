@@ -1,16 +1,16 @@
 import React from 'react';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
+import Housing from '../components/Housing';
 
-
-const Location = () => {
+const Logements = () => {
     return (
         <div>
             <Nav />
-            <h1>Logement</h1>
+            <Housing />
             <Footer />
         </div>
     );
 };
 
-export default Location;
+export default Logements;

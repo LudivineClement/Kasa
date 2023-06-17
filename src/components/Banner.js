@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Banner = () => {
-    return (
-        <div className='banner'>
-            <h2>Chez vous, partout et ailleurs</h2>
+function Banner({ imageUrl, text }) {
+  return (
+    <div className="banner">
+        <div className="image-container">
+            <img src={imageUrl} alt="Bannière" />
+            <div className="text-overlay">
+                <h2>{text}</h2>
+            </div>
         </div>
-    );
-};
+    </div>
+    )
+  } 
 
 export default Banner;

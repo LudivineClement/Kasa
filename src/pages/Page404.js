@@ -1,14 +1,13 @@
 import React from 'react';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
-
-
+import Error from '../components/Error';
 
 const Page404 = () => {
     return (
         <div>
             <Nav />
-            <h1>404</h1>
+            <Error />
             <Footer />
         </div>
     );
