@@ -1,16 +1,17 @@
 import React from 'react';
-import Nav from '../components/Navbar';
+import Navbar from '../components/Navbar';
+import ContentHousing from '../components/ContentHousing';
 import Footer from '../components/Footer';
-import Housing from '../components/Housing';
 
-const Logements = () => {
-    return (
-        <div>
-            <Nav />
-            <Housing />
-            <Footer />
-        </div>
-    );
+const Housing = () => {
+  return (
+    <div>
+      <Navbar />
+      <ContentHousing />
+      <Footer />
+    </div>
+  );
 };
 
-export default Logements;
+export default Housing;
+

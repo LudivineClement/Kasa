@@ -1,23 +1,38 @@
 .main_error {
-    @include margin;
-    @include verticalCenter;
-    flex-direction: column;
+  @include verticalCenter;
+  flex-direction: column;
 
-    h1 {
-        font-weight: 700;
-        font-size: 288px;
-        margin: 120px 0 140px;
-    }
+  h1 {
+    font-weight: 700;
+    font-size: 288px;
+    margin: 120px 0 140px;
 
-    .text_404 {
-        font-size: 36px;
-        margin-bottom: 140px;
+    @include mobile {
+      font-size: 96px;
+      margin: 113px 0 113px;
     }
+  }
 
-    .link_404 {
-        color: $color-1;
-        text-decoration: underline;
-        font-size: 18px;
-        margin-bottom: 140px;
+  .text_error {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 140px;
+
+    @include mobile {
+      font-size: 18px;
+      margin: 0 60px 113px 60px;
     }
+  }
+
+  .link_error {
+    color: $color-1;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-bottom: 140px;
+
+    @include mobile {
+      font-size: 14px;
+      margin-bottom: 113px;
+    }
+  }
 }
