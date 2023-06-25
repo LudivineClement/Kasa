@@ -1,12 +1,9 @@
 import React from 'react';
 
 const Ratings = ({ rating }) => {
-  const starActiveClass = 'fa-solid fa-star';
-  const starInactiveClass = 'fa-solid fa-star star-inactive';
-
   const stars = [];
   for (let i = 1; i <= 5; i++) {
-    const starClass = i <= rating ? starActiveClass : starInactiveClass;
+    const starClass = i <= rating ? 'fa-solid fa-star' : 'fa-solid fa-star star-inactive';
     stars.push(<i key={i} className={starClass}></i>);
   }
 

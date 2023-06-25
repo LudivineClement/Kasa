@@ -35,8 +35,8 @@ const ContentHousing = () => {
         </div>
       </div>
       <div className="collapse_housing">
-        <Collapse title="Description" content={housingData.description} />
-        <Collapse title="Equipements" content={housingData.equipments} isColumn={true}/>
+        <Collapse title="Description" content={housingData.description} fontSize={true}/>
+        <Collapse title="Equipements" content={housingData.equipments} isColumn={true} fontSize={true}/>
       </div>
     </main>
   );

@@ -2,6 +2,10 @@
   @include margin;
   margin: 40px 205px 0 205px;
 
+  @include tablet {
+    margin: 30px 50px 0 50px;
+  }
+
   @include mobile {
     margin: 20px 20px 0 20px;
   }

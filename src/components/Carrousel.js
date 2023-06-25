@@ -23,12 +23,12 @@ const Carrousel = ({ housingData }) => {
   const displayImageCount = `${currentImageIndex + 1}/${imageCount}`;
 
   return (
-    <div className="CarrouselContainer">
+    <div className="carrousel_container">
       <img src={currentImage} alt={housingData.title} />
       <div className="pagination">{displayImageCount}</div>
       <div>
-        <img className="left-arrow" src={arrowLeft} alt="précédent" onClick={previousImage} />
-        <img className="right-arrow" src={arrowRight} alt="suivant" onClick={nextImage} />
+        <img className="arrow_left" src={arrowLeft} alt="précédent" onClick={previousImage} />
+        <img className="arrow_right" src={arrowRight} alt="suivant" onClick={nextImage} />
       </div>
     </div>
   );

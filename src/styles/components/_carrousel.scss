@@ -1,6 +1,10 @@
-.CarrouselContainer {
+.carrousel_container {
   position: relative;
   height: 415px;
+
+  @include tablet {
+    height: 315px;
+  }
 
   @include mobile {
     height: 255px;
@@ -11,6 +15,10 @@
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
+
+    @include tablet {
+      border-radius: 15px;
+    }
 
     @include mobile {
       border-radius: 10px;
@@ -24,12 +32,17 @@
     transform: translateX(-50%);
     color: white;
 
+    @include tablet {
+      font-size: 15px;
+      bottom: 15px;
+    }
+
     @include mobile {
       display: none;
     }
   }
 
-  .left-arrow {
+  .arrow_left {
     position: absolute;
     top: 50%;
     left: 25px;
@@ -38,14 +51,20 @@
     height: 80px;
     cursor: pointer;
 
+    @include tablet {
+      width: 35px;
+      height: 60px;
+      left: 10px;
+    }
+
     @include mobile {
-      width: 24px;
-      height: 24px;
+      width: 25px;
+      height: 45px;
       left: 5px;
     }
   }
 
-  .right-arrow {
+  .arrow_right {
     position: absolute;
     top: 50%;
     right: 25px;
@@ -54,17 +73,17 @@
     height: 80px;
     cursor: pointer;
 
+    @include tablet {
+      width: 35px;
+      height: 60px;
+      right: 10px;
+    }
+
     @include mobile {
-      width: 24px;
-      height: 24px;
+      width: 25px;
+      height: 45px;
       right: 5px;
     }
   }
-}
 
-.img_alone {
-  height: 415px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 25px;
 }
