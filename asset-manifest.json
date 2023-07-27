@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.7265da1d.css",
+    "main.js": "/kasa/static/js/main.4dd68ca8.js",
+    "static/media/mountains.png": "/kasa/static/media/mountains.388a325a41a4341c7ba0.png",
+    "static/media/plage.png": "/kasa/static/media/plage.7b295fcb71808167cd75.png",
+    "index.html": "/kasa/index.html",
+    "main.7265da1d.css.map": "/kasa/static/css/main.7265da1d.css.map",
+    "main.4dd68ca8.js.map": "/kasa/static/js/main.4dd68ca8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7265da1d.css",
+    "static/js/main.4dd68ca8.js"
+  ]
+}
