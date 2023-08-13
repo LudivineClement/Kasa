@@ -7,7 +7,7 @@ import Page404 from './pages/Page404';
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
