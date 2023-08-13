@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/kasa' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path="/logement/:id" element={<Housing />} />
         <Route path='*' element={<Page404 />} />
