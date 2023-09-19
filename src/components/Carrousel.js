@@ -3,7 +3,7 @@ import arrowLeft from '../assets/arrow_left.png';
 import arrowRight from '../assets/arrow_right.png';
 
 const Carrousel = ({ housingData }) => {
-  // Utilisation de useState pour gérer l'index de l'image actuellement affichée
+   // Utilisation de useState pour gérer l'index de l'image actuellement affichée
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const previousImage = () => {

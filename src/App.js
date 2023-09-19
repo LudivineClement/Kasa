@@ -8,7 +8,7 @@ import Page404 from './pages/Page404';
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes basename={'/kasa'}>
+      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path="/logement/:id" element={<Housing />} />
